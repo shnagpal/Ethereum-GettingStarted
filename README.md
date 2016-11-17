@@ -42,3 +42,8 @@ Enter password for your account
 geth --datadir ~/.ethereum  --mine --minerthreads=2 --networkid 54321 --rpc --rpcport "8545" --rpccorsdomain "*" --port "30303" --nodiscover --rpcapi eth,net,web3 --autodag  --nat "any" --unlock 0
 ~~~~~
 
+# Connect to geth node
+~~~~~
+geth attach
+~~~~~
+You will enter geth console where you can invoke web3 calls
